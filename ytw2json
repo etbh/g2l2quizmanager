@@ -1,0 +1,11 @@
+#!/usr/bin/php
+
+<?php
+if (count($argv) != 2){
+	$stderr = fopen('php://stderr', 'w');
+	fwrite($stderr, "Usage: $argv[0] fichierdequiz \n");
+	exit();	
+}
+chdir(dirname(__FILE__));
+require_once('YouVSTheWorld.php');
+echo json_encode (YouVSTheWorld::import('ytw/'.$argv[1]));
