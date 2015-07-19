@@ -1,0 +1,77 @@
+title="Exemple Jedi";
+
+questions1=1;
+s1q1="Question 1";
+s1a1=new Array("Bonne réponse", "Mauvaise réponse", "Mauvaise réponse", "Mauvaise réponse");
+s1v1=false;
+
+questions2=1;
+s2q1="Question 2";
+s2a1=new Array("Bonne réponse", "Mauvaise réponse", "Mauvaise réponse", "Mauvaise réponse");
+s2v1=false;
+
+questions3=1;
+s3q1="Question 3";
+s3a1=new Array("Bonne réponse", "Mauvaise réponse", "Mauvaise réponse", "Mauvaise réponse");
+s3v1=false;
+
+questions4=1;
+s4q1="Question 4";
+s4a1=new Array("Bonne réponse", "Mauvaise réponse", "Mauvaise réponse", "Mauvaise réponse");
+s4v1=false;
+
+questions5=1;
+s5q1="Question 5";
+s5a1=new Array("Bonne réponse", "Mauvaise réponse", "Mauvaise réponse", "Mauvaise réponse");
+s5v1=false;
+
+questions6=1;
+s6q1="Question 6";
+s6a1=new Array("Bonne réponse", "Mauvaise réponse", "Mauvaise réponse", "Mauvaise réponse");
+s6v1=false;
+
+questions7=1;
+s7q1="Question 7";
+s7a1=new Array("Bonne réponse", "Mauvaise réponse", "Mauvaise réponse", "Mauvaise réponse");
+s7v1=false;
+
+questions8=1;
+s8q1="Question 8";
+s8a1=new Array("Bonne réponse", "Mauvaise réponse", "Mauvaise réponse", "Mauvaise réponse");
+s8v1=false;
+
+questions9=1;
+s9q1="Question 9";
+s9a1=new Array("Bonne réponse", "Mauvaise réponse", "Mauvaise réponse", "Mauvaise réponse");
+s9v1=false;
+
+questions10=1;
+s10q1="Question 10";
+s10a1=new Array("Bonne réponse", "Mauvaise réponse", "Mauvaise réponse", "Mauvaise réponse");
+s10v1=false;
+
+questions11=1;
+s11q1="Question 11";
+s11a1=new Array("Bonne réponse", "Mauvaise réponse", "Mauvaise réponse", "Mauvaise réponse");
+s11v1=false;
+
+questions12=1;
+s12q1="Question 12";
+s12a1=new Array("Bonne réponse", "Mauvaise réponse", "Mauvaise réponse", "Mauvaise réponse");
+s12v1=false;
+
+questions13=1;
+s13q1="Question 13";
+s13a1=new Array("Bonne réponse", "Mauvaise réponse", "Mauvaise réponse", "Mauvaise réponse");
+s13v1=false;
+
+questions14=1;
+s14q1="Question 14";
+s14a1=new Array("Bonne réponse", "Mauvaise réponse", "Mauvaise réponse", "Mauvaise réponse");
+s14v1=false;
+
+questions15=1;
+s15q1="Question 15";
+s15a1=new Array("Bonne réponse ", "Mauvaise réponse", "Mauvaise réponse", "Mauvaise réponse");
+s15v1=false;
+

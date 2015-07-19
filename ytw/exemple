@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<defi titre="Exemple YouVS">
+  <question>
+    <texte>Question 1</texte>
+    <reponse_list rep_valid="1" verified="false">
+      <reponse>Bonne r&#xE9;ponse</reponse>
+      <reponse>Mauvaise r&#xE9;ponse</reponse>
+    </reponse_list>
+  </question>
+  <question>
+    <texte>Question 2</texte>
+    <reponse_list rep_valid="1" verified="false">
+      <reponse>Bonne r&#xE9;ponse</reponse>
+      <reponse>Mauvaise r&#xE9;ponse</reponse>
+    </reponse_list>
+  </question>
+  <question>
+    <texte>Question 3</texte>
+    <reponse_list rep_valid="2" verified="false">
+      <reponse>Mauvaise r&#xE9;ponse</reponse>
+      <reponse>Bonne r&#xE9;ponse</reponse>
+    </reponse_list>
+  </question>
+  <question>
+    <texte>Question 4</texte>
+    <reponse_list rep_valid="1" verified="false">
+      <reponse>Bonne r&#xE9;ponse</reponse>
+      <reponse>Mauvaise r&#xE9;ponse</reponse>
+    </reponse_list>
+  </question>
+  <question>
+    <texte>Question 5</texte>
+    <reponse_list rep_valid="1" verified="false">
+      <reponse>Bonne r&#xE9;ponse</reponse>
+      <reponse>Mauvaise r&#xE9;ponse</reponse>
+    </reponse_list>
+  </question>
+  <question>
+    <texte>Question 6</texte>
+    <reponse_list rep_valid="1" verified="false">
+      <reponse>Bonne r&#xE9;ponse</reponse>
+      <reponse>Mauvaise r&#xE9;ponse</reponse>
+    </reponse_list>
+  </question>
+  <question>
+    <texte>Question 7</texte>
+    <reponse_list rep_valid="1" verified="false">
+      <reponse>Bonne r&#xE9;ponse</reponse>
+      <reponse>Mauvaise r&#xE9;ponse</reponse>
+    </reponse_list>
+  </question>
+  <question>
+    <texte>Question 8</texte>
+    <reponse_list rep_valid="1" verified="false">
+      <reponse>Bonne r&#xE9;ponse</reponse>
+      <reponse>Mauvaise r&#xE9;ponse</reponse>
+    </reponse_list>
+  </question>
+  <question>
+    <texte>Question 9</texte>
+    <reponse_list rep_valid="1" verified="false">
+      <reponse>Bonne r&#xE9;ponse</reponse>
+      <reponse>Mauvaise r&#xE9;ponse</reponse>
+    </reponse_list>
+  </question>
+  <question>
+    <texte>Question 10</texte>
+    <reponse_list rep_valid="1" verified="false">
+      <reponse>Bonne r&#xE9;ponse</reponse>
+      <reponse>Mauvaise r&#xE9;ponse</reponse>
+    </reponse_list>
+  </question>
+  <question>
+    <texte>Question 11</texte>
+    <reponse_list rep_valid="2" verified="false">
+      <reponse>Mauvaise r&#xE9;ponse</reponse>
+      <reponse>Bonne r&#xE9;ponse</reponse>
+      <reponse>Mauvaise r&#xE9;ponse</reponse>
+    </reponse_list>
+  </question>
+  <question>
+    <texte>Question 12</texte>
+    <reponse_list rep_valid="1" verified="false">
+      <reponse>Bonne r&#xE9;ponse</reponse>
+      <reponse>Mauvaise r&#xE9;ponse</reponse>
+      <reponse>Mauvaise r&#xE9;ponse</reponse>
+    </reponse_list>
+  </question>
+  <question>
+    <texte>Question 13</texte>
+    <reponse_list rep_valid="1" verified="false">
+      <reponse>Bonne r&#xE9;ponse</reponse>
+      <reponse>Mauvaise r&#xE9;ponse</reponse>
+      <reponse>Mauvaise r&#xE9;ponse</reponse>
+    </reponse_list>
+  </question>
+  <question>
+    <texte>Question 14</texte>
+    <reponse_list rep_valid="1" verified="false">
+      <reponse>Bonne r&#xE9;ponse</reponse>
+      <reponse>Mauvaise r&#xE9;ponse</reponse>
+      <reponse>Mauvaise r&#xE9;ponse</reponse>
+    </reponse_list>
+  </question>
+  <question>
+    <texte>Question 15</texte>
+    <reponse_list rep_valid="1" verified="false">
+      <reponse>Bonne r&#xE9;ponse</reponse>
+      <reponse>Mauvaise r&#xE9;ponse</reponse>
+      <reponse>Mauvaise r&#xE9;ponse</reponse>
+    </reponse_list>
+  </question>
+</defi>
