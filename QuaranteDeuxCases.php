@@ -17,13 +17,13 @@ class QuaranteDeuxCases extends Quiz
 	public static function import($file){
 		$fd = fopen($file, 'r');
 		$quiz = new QuaranteDeuxCases();
-		$quiz->title = utf8_encode(fgets($fd));
+		$quiz->title = fgets($fd);
 		$quiz->filename = $file;
 		$quiz->savetime = filemtime($file);
 		$level_count = 0;
 		while (!feof($fd)){
 			$lines = array();
-			while (($line = trim(utf8_encode(fgets($fd)))) != ''){
+			while (($line = trim(fgets($fd))) != ''){
 				$lines[] = $line;
 			}
 			if (count($lines) > 0){
@@ -47,10 +47,10 @@ class QuaranteDeuxCases extends Quiz
 
 	public function export($file){
 		$fd = fopen($file, 'w');
-		$ret = fwrite($fd, utf8_decode($this->title."\n\n"));
+		$ret = fwrite($fd, $this->title."\n\n");
 		foreach ($this->questions as $level){
 			$question = $level[0];
-			fwrite($fd, utf8_decode($question->getStatement()."\n".$question->getGoodAnswer()."\n\n"));
+			fwrite($fd, $question->getStatement()."\n".$question->getGoodAnswer()."\n\n");
 		}
 		fclose($fd);
 	}

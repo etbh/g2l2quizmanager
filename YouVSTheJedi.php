@@ -20,11 +20,11 @@ class YouVSTheJedi extends Quiz
 
 	public function export($file){
 		$fd = fopen($file, 'w');
-		fwrite($fd, utf8_decode("title=\"".addslashes($this->title)."\";\n\n"));
+		fwrite($fd, "title=\"".addslashes($this->title)."\";\n\n");
 		foreach ($this->questions as $level => $questions_at_level) {
 			$level_questions_count = count($questions_at_level);
 			$level_write = $level + 1;
-			fwrite($fd, utf8_decode("questions$level_write=$level_questions_count;\n"));
+			fwrite($fd, "questions$level_write=$level_questions_count;\n");
 			foreach ($questions_at_level as $index => $question) {
 				$index_write = $index + 1;
 				$statement = addslashes($question->getStatement());
@@ -36,9 +36,9 @@ class YouVSTheJedi extends Quiz
 				$answers[0] = $good_answer;
 				foreach ($answers as $answerid => $answer)
 					$answers[$answerid] = addslashes($answer);
-				fwrite($fd, utf8_decode("s${level_write}q${index_write}=\"$statement\";\n"));
-				fwrite($fd, utf8_decode("s${level_write}a${index_write}=new Array(\"${answers[0]}\", \"${answers[1]}\", \"${answers[2]}\", \"${answers[3]}\");\n"));
-				fwrite($fd, utf8_decode("s${level_write}v${index_write}=".($verified?'true':'false').";\n"));
+				fwrite($fd, "s${level_write}q${index_write}=\"$statement\";\n");
+				fwrite($fd, "s${level_write}a${index_write}=new Array(\"${answers[0]}\", \"${answers[1]}\", \"${answers[2]}\", \"${answers[3]}\");\n");
+				fwrite($fd, "s${level_write}v${index_write}=".($verified?'true':'false').";\n");
 			}
 			fwrite($fd, "\n");
 		}
@@ -54,7 +54,7 @@ class YouVSTheJedi extends Quiz
 		$questions = array_fill(1, 15, array());
 		while (!feof($fd)){
 			$matches = array();
-			$line = utf8_encode(fgets($fd));
+			$line = fgets($fd);
 			preg_match("#title\s*=\s*\"(.+)\";#" , $line, $matches);
 			if (count($matches) != 0){
 				$quiz->title = stripslashes($matches[1]);
@@ -120,7 +120,7 @@ class YouVSTheJedi extends Quiz
 			$defi->appendChild($question);
 		}
 		$doc->formatOutput = true;
-		echo utf8_decode($doc->saveXML());
+		echo $doc->saveXML();
 
 	}
 
