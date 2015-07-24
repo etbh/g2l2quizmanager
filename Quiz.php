@@ -22,7 +22,7 @@ abstract class Quiz implements JsonSerializable
 		$this->title = null;
 	}
 
-	public function doEmpty(){
+	public function clear(){
 		for($level=0; $level<$this->levels_count; $level ++) {
 			$question = new Question();
 			$question->setStatement('');
@@ -43,8 +43,8 @@ abstract class Quiz implements JsonSerializable
 		if (!$this->are_multiple_questions && count($this->questions[$level]) != 0)
 			throw new Exception('There is already a question for this level.');
 		if ($question->getAnswersCount() != $this->answers_by_level[$level])
-			throw new Exception('The questions contains a wrong number of answers');
-		if (!$question->isGoodAnswerSetted())
+			throw new Exception('The question contains a wrong number of answers');
+		if (!$question->isGoodAnswerSet())
 			throw new Exception("The question doesn't have any good answer.");
 		$this->questions[$level][] = $question;
 	}

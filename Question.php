@@ -21,7 +21,7 @@ class Question implements JsonSerializable
 	}
 	public function getGoodAnswerIndex(){
 		if ($this->goodanswerindex == -1)
-			throw new Exception("Good answer not setted.");
+			throw new Exception("Good answer not set.");
 		return $this->goodanswerindex;
 	}
 	public function isVerified(){
@@ -41,7 +41,7 @@ class Question implements JsonSerializable
 	public function getAnswersCount(){
 		return count($this->answers);
 	}
-	public function isGoodAnswerSetted(){
+	public function isGoodAnswerSet(){
 		return ($this->goodanswerindex != -1);
 	}
 	public function setVerified($verified){

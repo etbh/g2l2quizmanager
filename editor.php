@@ -1,6 +1,6 @@
 <?php
 require_once($_GET['type'].'.php');
-$quiz = isset($_GET['quiz']) ? $_GET['type']::import($_GET['quiz']) : (new $_GET['type']())->doEmpty();
+$quiz = isset($_GET['quiz']) ? $_GET['type']::import($_GET['quiz']) : (new $_GET['type']())->clear();
 // $quiz;
 // if (isset($_GET['quiz']))
 // 	$quiz = $_GET['type']::import($_GET['quiz']);
