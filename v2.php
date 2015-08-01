@@ -26,7 +26,7 @@ class Theme
 {
     public $theme;
     public $tags = array();
-    public $questions;
+    public $questions = array();
 
 }
 
@@ -45,4 +45,30 @@ class Question
     public $verifiedby;
     public $lastused;
     public $answers = array();
+}
+
+
+function themeFromJson($json){
+    $toobject = function($parsedjson, $object){
+        foreach ($parsedjson as $key => $value){
+            $object->$key = $value;
+        }
+    };
+    $parsed = json_decode($json);
+    $theme = new Theme();
+    $toobject($parsed, $theme);
+    foreach ($theme->questions as $qid => $parsedquestion){
+        $question = new Question();
+        $toobject($parsedquestion, $question);
+
+        foreach ($question->answers as $aid => $parsedanswer){
+            $answer = new Answer();
+            $toobject($parsedanswer, $answer);
+            $question->answers[$aid] = $answer;
+        }
+
+        $theme->questions[$qid] = $question;
+    }
+
+    return $theme;
 }
