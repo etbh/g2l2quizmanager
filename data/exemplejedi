@@ -1,0 +1,456 @@
+{
+    "theme": "Exemple Jedi",
+    "tags": [],
+    "questions": [
+        {
+            "statement": "Question 1",
+            "difficulty": 0,
+            "author": "?",
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": null,
+                    "width": 5
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                }
+            ]
+        },
+        {
+            "statement": "Question 2",
+            "difficulty": 1,
+            "author": "?",
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": null,
+                    "width": 5
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                }
+            ]
+        },
+        {
+            "statement": "Question 3",
+            "difficulty": 2,
+            "author": "?",
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": null,
+                    "width": 5
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                }
+            ]
+        },
+        {
+            "statement": "Question 4",
+            "difficulty": 3,
+            "author": "?",
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": null,
+                    "width": 5
+                }
+            ]
+        },
+        {
+            "statement": "Question 5",
+            "difficulty": 4,
+            "author": "?",
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": null,
+                    "width": 5
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                }
+            ]
+        },
+        {
+            "statement": "Question 6",
+            "difficulty": 5,
+            "author": "?",
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": null,
+                    "width": 5
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                }
+            ]
+        },
+        {
+            "statement": "Question 7",
+            "difficulty": 6,
+            "author": "?",
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": null,
+                    "width": 5
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                }
+            ]
+        },
+        {
+            "statement": "Question 8",
+            "difficulty": 7,
+            "author": "?",
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": null,
+                    "width": 5
+                }
+            ]
+        },
+        {
+            "statement": "Question 9",
+            "difficulty": 8,
+            "author": "?",
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": null,
+                    "width": 5
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                }
+            ]
+        },
+        {
+            "statement": "Question 10",
+            "difficulty": 9,
+            "author": "?",
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": null,
+                    "width": 5
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                }
+            ]
+        },
+        {
+            "statement": "Question 11",
+            "difficulty": 10,
+            "author": "?",
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": null,
+                    "width": 5
+                }
+            ]
+        },
+        {
+            "statement": "Question 12",
+            "difficulty": 11,
+            "author": "?",
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": null,
+                    "width": 5
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                }
+            ]
+        },
+        {
+            "statement": "Question 13",
+            "difficulty": 12,
+            "author": "?",
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": null,
+                    "width": 5
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                }
+            ]
+        },
+        {
+            "statement": "Question 14",
+            "difficulty": 13,
+            "author": "?",
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": null,
+                    "width": 5
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                }
+            ]
+        },
+        {
+            "statement": "Question 15",
+            "difficulty": 14,
+            "author": "?",
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": null,
+                    "width": 3
+                },
+                {
+                    "text": "Bonne r\u00e9ponse\u00a0",
+                    "weight": null,
+                    "width": 5
+                }
+            ]
+        }
+    ]
+}
