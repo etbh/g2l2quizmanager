@@ -2,6 +2,8 @@
 require_once('Quiz.php');
 require_once('v2.php');
 
+shell_exec('git init data');
+
 foreach (array('WhoWantsToBeAJedi', 'YouVSTheWorld', 'QuaranteDeuxCases') as $type) {
     require_once($type.'.php');
     $folder = $type::Folder;
@@ -38,10 +40,18 @@ foreach (array('WhoWantsToBeAJedi', 'YouVSTheWorld', 'QuaranteDeuxCases') as $ty
                 }
 
             file_put_contents(
-                'data/'.implode(explode(' ', strtolower($v2theme->theme))),
+                'data/'.($file = implode(explode(' ', strtolower($v2theme->theme)))),
                 json_encode($v2theme, JSON_PRETTY_PRINT)
             );
 
+            chdir('data');
+            shell_exec('git add '.escapeshellarg($file));
+            chdir('..');
         }
     }
 }
+
+chdir('data');
+shell_exec("git config user.name manager");
+shell_exec("git config user.email chimyx@g2l2corp.com");
+shell_exec("git commit -m \"data from old system\"");
