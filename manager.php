@@ -1,25 +1,12 @@
 <?php
-foreach (array('WhoWantsToBeAJedi', 'YouVSTheWorld', 'QuaranteDeuxCases') as $type) {
-	require_once($type.'.php');
-	$name = $type::ProperName;
-	$folder = $type::Folder;
-	echo "<h1>$name</h1><ul>";
-	
-	foreach(scandir($folder)as $file){
-		if ($file[0] != '.'){
-			$quiz = $type::import($folder.'/'.$file);
-			$title = htmlentities($quiz->getTitle());
+namespace v2;
+require_once('v2.php');
 
+echo '<h1>Thèmes de quiz</h1>';
+echo '<ul>';
 
-			$verified = 0;
-			foreach ($quiz->questions as $level)
-				foreach ($level as $question)
-					if ($question->isVerified())
-						$verified ++;
-			$verified = floor($verified * 100 / $quiz->countQuestions());
-			echo "<li><a href=\"?type=$type&quiz=$folder%2F$file\">$title</a>".($quiz->getInfo()['are_multiple_questions']?' - '.$quiz->countQuestions().' questions':'')." ($verified% v&eacute;rifi&eacute;)</li>";
-		}
-	}
-	echo "</ul><a href=\"?type=$type\">Nouveau quiz</a>";
+foreach(scandir('data')as $file) if ($file[0] != '.'){
+	$theme = themeFromJson(file_get_contents('data/'.$file));
+	echo "<li><a href=\"?$file\">{$theme->theme}</a></li>";
 }
-?>
+echo '</ul>';
