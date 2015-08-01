@@ -33,7 +33,7 @@ class Theme
 class Answer
 {
     public $text;
-    public $width;
+    public $weight;
 }
 
 class Question
