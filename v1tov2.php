@@ -39,8 +39,11 @@ foreach (array('WhoWantsToBeAJedi', 'YouVSTheWorld', 'QuaranteDeuxCases') as $ty
                     $v2theme->questions[] = $v2question;
                 }
 
+            if ($type == 'QuaranteDeuxCases')
+                $v2theme->theme .= ' 42';
+
             file_put_contents(
-                'data/'.($file = implode(explode(' ', strtolower($v2theme->theme)))),
+                'data/'.($file = preg_replace('/[^\x20-\x7E]/','', implode(explode(' ', strtolower($v2theme->theme))))),
                 json_encode($v2theme, JSON_PRETTY_PRINT)
             );
 
