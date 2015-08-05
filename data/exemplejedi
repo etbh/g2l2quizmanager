@@ -4,451 +4,391 @@
     "questions": [
         {
             "statement": "Question 1",
-            "difficulty": 0,
-            "author": "?",
+            "difficulty": 1,
+            "author": null,
             "verified": false,
             "verifiedby": null,
             "lastused": null,
             "answers": [
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 },
                 {
                     "text": "Bonne r\u00e9ponse",
-                    "weight": null,
-                    "width": 5
+                    "weight": 5
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 }
             ]
         },
         {
             "statement": "Question 2",
-            "difficulty": 1,
-            "author": "?",
+            "difficulty": 2,
+            "author": null,
             "verified": false,
             "verifiedby": null,
             "lastused": null,
             "answers": [
                 {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
-                },
-                {
                     "text": "Bonne r\u00e9ponse",
-                    "weight": null,
-                    "width": 5
+                    "weight": 5
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
                 }
             ]
         },
         {
             "statement": "Question 3",
-            "difficulty": 2,
-            "author": "?",
+            "difficulty": 3,
+            "author": null,
             "verified": false,
             "verifiedby": null,
             "lastused": null,
             "answers": [
                 {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
-                },
-                {
                     "text": "Bonne r\u00e9ponse",
-                    "weight": null,
-                    "width": 5
+                    "weight": 5
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
                 }
             ]
         },
         {
             "statement": "Question 4",
-            "difficulty": 3,
-            "author": "?",
+            "difficulty": 4,
+            "author": null,
             "verified": false,
             "verifiedby": null,
             "lastused": null,
             "answers": [
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 },
                 {
                     "text": "Bonne r\u00e9ponse",
-                    "weight": null,
-                    "width": 5
+                    "weight": 5
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
                 }
             ]
         },
         {
             "statement": "Question 5",
-            "difficulty": 4,
-            "author": "?",
+            "difficulty": 5,
+            "author": null,
             "verified": false,
             "verifiedby": null,
             "lastused": null,
             "answers": [
                 {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
                     "text": "Bonne r\u00e9ponse",
-                    "weight": null,
-                    "width": 5
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 5
                 }
             ]
         },
         {
             "statement": "Question 6",
-            "difficulty": 5,
-            "author": "?",
+            "difficulty": 6,
+            "author": null,
             "verified": false,
             "verifiedby": null,
             "lastused": null,
             "answers": [
                 {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
                     "text": "Bonne r\u00e9ponse",
-                    "weight": null,
-                    "width": 5
+                    "weight": 5
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 }
             ]
         },
         {
             "statement": "Question 7",
-            "difficulty": 6,
-            "author": "?",
+            "difficulty": 7,
+            "author": null,
             "verified": false,
             "verifiedby": null,
             "lastused": null,
             "answers": [
                 {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
-                },
-                {
                     "text": "Bonne r\u00e9ponse",
-                    "weight": null,
-                    "width": 5
+                    "weight": 5
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
                 }
             ]
         },
         {
             "statement": "Question 8",
-            "difficulty": 7,
-            "author": "?",
+            "difficulty": 8,
+            "author": null,
             "verified": false,
             "verifiedby": null,
             "lastused": null,
             "answers": [
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 },
                 {
                     "text": "Bonne r\u00e9ponse",
-                    "weight": null,
-                    "width": 5
+                    "weight": 5
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
                 }
             ]
         },
         {
             "statement": "Question 9",
-            "difficulty": 8,
-            "author": "?",
+            "difficulty": 9,
+            "author": null,
             "verified": false,
             "verifiedby": null,
             "lastused": null,
             "answers": [
                 {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
                     "text": "Bonne r\u00e9ponse",
-                    "weight": null,
-                    "width": 5
+                    "weight": 5
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 }
             ]
         },
         {
             "statement": "Question 10",
-            "difficulty": 9,
-            "author": "?",
+            "difficulty": 10,
+            "author": null,
             "verified": false,
             "verifiedby": null,
             "lastused": null,
             "answers": [
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 },
                 {
                     "text": "Bonne r\u00e9ponse",
-                    "weight": null,
-                    "width": 5
+                    "weight": 5
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 }
             ]
         },
         {
             "statement": "Question 11",
-            "difficulty": 10,
-            "author": "?",
+            "difficulty": 11,
+            "author": null,
             "verified": false,
             "verifiedby": null,
             "lastused": null,
             "answers": [
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 },
                 {
                     "text": "Bonne r\u00e9ponse",
-                    "weight": null,
-                    "width": 5
+                    "weight": 5
                 }
             ]
         },
         {
             "statement": "Question 12",
-            "difficulty": 11,
-            "author": "?",
+            "difficulty": 12,
+            "author": null,
             "verified": false,
             "verifiedby": null,
             "lastused": null,
             "answers": [
                 {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
-                },
-                {
                     "text": "Bonne r\u00e9ponse",
-                    "weight": null,
-                    "width": 5
+                    "weight": 5
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
                 }
             ]
         },
         {
             "statement": "Question 13",
-            "difficulty": 12,
-            "author": "?",
+            "difficulty": 13,
+            "author": null,
             "verified": false,
             "verifiedby": null,
             "lastused": null,
             "answers": [
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 },
                 {
                     "text": "Bonne r\u00e9ponse",
-                    "weight": null,
-                    "width": 5
+                    "weight": 5
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 }
             ]
         },
         {
             "statement": "Question 14",
-            "difficulty": 13,
-            "author": "?",
+            "difficulty": 14,
+            "author": null,
             "verified": false,
             "verifiedby": null,
             "lastused": null,
             "answers": [
                 {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
                     "text": "Bonne r\u00e9ponse",
-                    "weight": null,
-                    "width": 5
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 5
                 }
             ]
         },
         {
             "statement": "Question 15",
-            "difficulty": 14,
-            "author": "?",
+            "difficulty": 15,
+            "author": null,
             "verified": false,
             "verifiedby": null,
             "lastused": null,
             "answers": [
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": null,
-                    "width": 3
+                    "weight": 3
                 },
                 {
                     "text": "Bonne r\u00e9ponse\u00a0",
-                    "weight": null,
-                    "width": 5
+                    "weight": 5
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
                 }
             ]
         }

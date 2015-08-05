@@ -18,15 +18,14 @@ foreach (array('WhoWantsToBeAJedi', 'YouVSTheWorld', 'QuaranteDeuxCases') as $ty
                 foreach ($levelquestions as $question){
                     $v2question = new \v2\Question();
                     $v2question->statement = $question->getStatement();
-                    $v2question->difficulty = $level;
-                    $v2question->author = '?';
+                    $v2question->difficulty = $level + 1;
                     ($v2question->verified = $question->isVerified())
                         && $v2question->verifiedby = '?';
 
                     foreach ($question->getAnswers() as $answerid => $answer){
                         $v2answer = new \v2\Answer();
                         $v2answer->text = $answer;
-                        $v2answer->width = ($answerid == $question->getGoodAnswerIndex()) ? 5 : 3;
+                        $v2answer->weight = ($answerid == $question->getGoodAnswerIndex()) ? 5 : 3;
 
                         $v2question->answers[] = $v2answer;
                     }
