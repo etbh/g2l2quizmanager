@@ -12,6 +12,13 @@ $theme = themeFromJson(file_get_contents('data/'.$_SERVER['QUERY_STRING']));
 	.nogoodanswer label[for="5"]{
 		color : red;
 	}
+	h2{
+		margin-bottom: 0px;
+	}
+	.author{
+		font-size: .8em;
+		font-style: italic;
+	}
 </style>
 <?php
 
@@ -20,7 +27,7 @@ foreach($theme->questions as $question){
 	echo "<div class=question data-id={$question->id}><h2><span class=difficulty contenteditable>{$question->difficulty}</span>";
 	echo " - <span class=statement contenteditable>{$question->statement}</span></h2>";
 	if ($question->author)
-		echo "<span class=author>Par {$question->author}</span>";
+		echo "<span class=author>{$question->author}</span>";
 	echo '<ul>';
 	foreach($question->answers as $answer){
 		echo "<span class=answer><li class=text contenteditable>{$answer->text}</li>";
@@ -124,7 +131,7 @@ foreach($theme->questions as $question){
 		var newEmptyAnswer = domAnswer.parentElement.appendChild(domAnswer.cloneNode(true));
 		newEmptyAnswer.querySelector('.text').textContent = '';
 		[].forEach.call(newEmptyAnswer.querySelectorAll('.weight input'), function(domCheck){
-			domCheck.checked = false;
+			domCheck.checked = domCheck.value == 3;
 		});
 		newEmptyAnswer.classList.add('empty');
 		initDomAnswer(newEmptyAnswer);
