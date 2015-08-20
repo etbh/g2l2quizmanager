@@ -7,6 +7,7 @@ namespace v2;
         'theme'     : 'xx',
         'tags'      : [ 'xx', 'xx'],
         'questions' : [
+                        'id'            : xxxxxxx
                         'statement'     : 'xx',
                         'difficulty'    : x,
                         'author'        : 'xx',
@@ -38,6 +39,7 @@ class Answer
 
 class Question
 {
+    public $id;
     public $statement;
     public $difficulty;
     public $author;
@@ -69,6 +71,13 @@ function themeFromJson($json){
 
         $theme->questions[$qid] = $question;
     }
+    usort($theme->questions, function($a,$b) {return $a->difficulty > $b->difficulty;});
 
     return $theme;
+}
+
+function jsonFromTheme($theme){
+    $theme = clone $theme;
+    usort($theme->questions, function($a,$b) {return $a->id > $b->id;});
+    return json_encode($theme, JSON_PRETTY_PRINT);
 }

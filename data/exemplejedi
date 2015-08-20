@@ -3,6 +3,7 @@
     "tags": [],
     "questions": [
         {
+            "id": "06b15aaa2046df47294d7bf1cad9a0d2",
             "statement": "Question 1",
             "difficulty": 1,
             "author": null,
@@ -11,12 +12,12 @@
             "lastused": null,
             "answers": [
                 {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
-                },
-                {
                     "text": "Bonne r\u00e9ponse",
                     "weight": 5
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
@@ -29,6 +30,7 @@
             ]
         },
         {
+            "id": "21c58e47a1a80e754148cc396bc8794d",
             "statement": "Question 2",
             "difficulty": 2,
             "author": null,
@@ -37,57 +39,9 @@
             "lastused": null,
             "answers": [
                 {
-                    "text": "Bonne r\u00e9ponse",
-                    "weight": 5
-                },
-                {
                     "text": "Mauvaise r\u00e9ponse",
                     "weight": 3
                 },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
-                }
-            ]
-        },
-        {
-            "statement": "Question 3",
-            "difficulty": 3,
-            "author": null,
-            "verified": false,
-            "verifiedby": null,
-            "lastused": null,
-            "answers": [
-                {
-                    "text": "Bonne r\u00e9ponse",
-                    "weight": 5
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
-                }
-            ]
-        },
-        {
-            "statement": "Question 4",
-            "difficulty": 4,
-            "author": null,
-            "verified": false,
-            "verifiedby": null,
-            "lastused": null,
-            "answers": [
                 {
                     "text": "Mauvaise r\u00e9ponse",
                     "weight": 3
@@ -99,16 +53,13 @@
                 {
                     "text": "Bonne r\u00e9ponse",
                     "weight": 5
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
                 }
             ]
         },
         {
-            "statement": "Question 5",
-            "difficulty": 5,
+            "id": "2a7a57c7170bd846271fff56371cefd7",
+            "statement": "Question 12",
+            "difficulty": 12,
             "author": null,
             "verified": false,
             "verifiedby": null,
@@ -133,84 +84,7 @@
             ]
         },
         {
-            "statement": "Question 6",
-            "difficulty": 6,
-            "author": null,
-            "verified": false,
-            "verifiedby": null,
-            "lastused": null,
-            "answers": [
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
-                },
-                {
-                    "text": "Bonne r\u00e9ponse",
-                    "weight": 5
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
-                }
-            ]
-        },
-        {
-            "statement": "Question 7",
-            "difficulty": 7,
-            "author": null,
-            "verified": false,
-            "verifiedby": null,
-            "lastused": null,
-            "answers": [
-                {
-                    "text": "Bonne r\u00e9ponse",
-                    "weight": 5
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
-                }
-            ]
-        },
-        {
-            "statement": "Question 8",
-            "difficulty": 8,
-            "author": null,
-            "verified": false,
-            "verifiedby": null,
-            "lastused": null,
-            "answers": [
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
-                },
-                {
-                    "text": "Bonne r\u00e9ponse",
-                    "weight": 5
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
-                }
-            ]
-        },
-        {
+            "id": "2d94f3a84d2867d1d672550e01badc4b",
             "statement": "Question 9",
             "difficulty": 9,
             "author": null,
@@ -227,8 +101,35 @@
                     "weight": 3
                 },
                 {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
                     "text": "Bonne r\u00e9ponse",
                     "weight": 5
+                }
+            ]
+        },
+        {
+            "id": "4298187e2e32ff8da833c895e8088545",
+            "statement": "Question 13",
+            "difficulty": 13,
+            "author": null,
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": 5
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
@@ -237,6 +138,7 @@
             ]
         },
         {
+            "id": "4beaa8ab7224671951c8e4bdf6808e3e",
             "statement": "Question 10",
             "difficulty": 10,
             "author": null,
@@ -253,8 +155,89 @@
                     "weight": 3
                 },
                 {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
                     "text": "Bonne r\u00e9ponse",
                     "weight": 5
+                }
+            ]
+        },
+        {
+            "id": "4f44269b63a95e9d89d8853e6378c509",
+            "statement": "Question 6",
+            "difficulty": 6,
+            "author": null,
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": 5
+                }
+            ]
+        },
+        {
+            "id": "70d1b75401b9fc2bdb89e8d531c4c6bd",
+            "statement": "Question 15",
+            "difficulty": 15,
+            "author": null,
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Bonne r\u00e9ponse\u00a0",
+                    "weight": 5
+                }
+            ]
+        },
+        {
+            "id": "7d5e14c0976b4550749eb73f126c6a21",
+            "statement": "Question 3",
+            "difficulty": 3,
+            "author": null,
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": 5
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
@@ -263,6 +246,88 @@
             ]
         },
         {
+            "id": "84bc0b936d3cda15360f8d9d9d72b08f",
+            "statement": "Question 5",
+            "difficulty": 5,
+            "author": null,
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": 5
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                }
+            ]
+        },
+        {
+            "id": "98f621314759192aa9ca415f7654c318",
+            "statement": "Question 4",
+            "difficulty": 4,
+            "author": null,
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": 5
+                }
+            ]
+        },
+        {
+            "id": "ca6dd09270b9063efa982ce0c0a3410a",
+            "statement": "Question 8",
+            "difficulty": 8,
+            "author": null,
+            "verified": false,
+            "verifiedby": null,
+            "lastused": null,
+            "answers": [
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Mauvaise r\u00e9ponse",
+                    "weight": 3
+                },
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": 5
+                }
+            ]
+        },
+        {
+            "id": "dd88344e72a6cb3e90e7e896e977e7b0",
             "statement": "Question 11",
             "difficulty": 11,
             "author": null,
@@ -275,34 +340,8 @@
                     "weight": 3
                 },
                 {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
-                },
-                {
                     "text": "Bonne r\u00e9ponse",
                     "weight": 5
-                }
-            ]
-        },
-        {
-            "statement": "Question 12",
-            "difficulty": 12,
-            "author": null,
-            "verified": false,
-            "verifiedby": null,
-            "lastused": null,
-            "answers": [
-                {
-                    "text": "Bonne r\u00e9ponse",
-                    "weight": 5
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
@@ -315,8 +354,9 @@
             ]
         },
         {
-            "statement": "Question 13",
-            "difficulty": 13,
+            "id": "dec2562a9b18c339a6405aa30e3bb020",
+            "statement": "Question 7",
+            "difficulty": 7,
             "author": null,
             "verified": false,
             "verifiedby": null,
@@ -327,12 +367,12 @@
                     "weight": 3
                 },
                 {
-                    "text": "Bonne r\u00e9ponse",
-                    "weight": 5
-                },
-                {
                     "text": "Mauvaise r\u00e9ponse",
                     "weight": 3
+                },
+                {
+                    "text": "Bonne r\u00e9ponse",
+                    "weight": 5
                 },
                 {
                     "text": "Mauvaise r\u00e9ponse",
@@ -341,6 +381,7 @@
             ]
         },
         {
+            "id": "fa155c37647f12466e208136f7ad4c13",
             "statement": "Question 14",
             "difficulty": 14,
             "author": null,
@@ -363,32 +404,6 @@
                 {
                     "text": "Bonne r\u00e9ponse",
                     "weight": 5
-                }
-            ]
-        },
-        {
-            "statement": "Question 15",
-            "difficulty": 15,
-            "author": null,
-            "verified": false,
-            "verifiedby": null,
-            "lastused": null,
-            "answers": [
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
-                },
-                {
-                    "text": "Bonne r\u00e9ponse\u00a0",
-                    "weight": 5
-                },
-                {
-                    "text": "Mauvaise r\u00e9ponse",
-                    "weight": 3
                 }
             ]
         }

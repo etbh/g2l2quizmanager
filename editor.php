@@ -17,7 +17,7 @@ $theme = themeFromJson(file_get_contents('data/'.$_SERVER['QUERY_STRING']));
 
 echo "<h1 id=theme contenteditable>{$theme->theme}</h1>";
 foreach($theme->questions as $question){
-	echo "<div class=question><h2><span class=difficulty contenteditable>{$question->difficulty}</span>";
+	echo "<div class=question data-id={$question->id}><h2><span class=difficulty contenteditable>{$question->difficulty}</span>";
 	echo " - <span class=statement contenteditable>{$question->statement}</span></h2>";
 	if ($question->author)
 		echo "<span class=author>Par {$question->author}</span>";

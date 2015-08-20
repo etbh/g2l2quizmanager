@@ -14,15 +14,20 @@ foreach (array('WhoWantsToBeAJedi', 'YouVSTheWorld', 'QuaranteDeuxCases') as $ty
             $v2theme = new v2\Theme();
             $v2theme->theme = $quiz->getTitle();
 
-            foreach ($quiz->questions as $level => $levelquestions)
-                foreach ($levelquestions as $question){
+            foreach ($quiz->questions as $level => $levelquestions) {
+                $questionids = [];
+                foreach ($levelquestions as $question) {
                     $v2question = new \v2\Question();
                     $v2question->statement = $question->getStatement();
                     $v2question->difficulty = $level + 1;
                     ($v2question->verified = $question->isVerified())
-                        && $v2question->verifiedby = '?';
-
-                    foreach ($question->getAnswers() as $answerid => $answer){
+                    && $v2question->verifiedby = '?';
+                    $v2question->id = md5($v2question->statement);
+                    while (array_search($v2question->id, $questionids) !== FALSE){
+                         $v2question->id = str_shuffle($v2question->id);
+                    }
+                    $questionids[] = $v2question->id;
+                    foreach ($question->getAnswers() as $answerid => $answer) {
                         $v2answer = new \v2\Answer();
                         $v2answer->text = $answer;
                         $v2answer->weight = ($answerid == $question->getGoodAnswerIndex()) ? 5 : 3;
@@ -37,13 +42,14 @@ foreach (array('WhoWantsToBeAJedi', 'YouVSTheWorld', 'QuaranteDeuxCases') as $ty
 
                     $v2theme->questions[] = $v2question;
                 }
+            }
 
             if ($type == 'QuaranteDeuxCases')
                 $v2theme->theme .= ' 42';
 
             file_put_contents(
                 'data/'.($file = preg_replace('/[^\x20-\x7E]/','', implode(explode(' ', strtolower($v2theme->theme))))),
-                json_encode($v2theme, JSON_PRETTY_PRINT)
+                \v2\jsonFromTheme($v2theme)
             );
 
             chdir('data');
