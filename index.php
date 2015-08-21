@@ -1,9 +1,15 @@
 <?php
 namespace v2;
 
-if (strlen($_SERVER['QUERY_STRING']) && file_exists('data/'.urldecode($_SERVER['QUERY_STRING'])))
-    include 'editor.php';
+$query = urldecode($_SERVER['QUERY_STRING']);
+$file = explode('_', $query)[0];
+$branch;
+if (!empty($file)){
+	if ($file != $query)
+		$branch = $query;
+	include 'editor.php';
+}
 else
-    include 'manager.php';
+	include 'manager.php';
 
 ?>

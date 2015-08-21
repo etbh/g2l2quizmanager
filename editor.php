@@ -2,7 +2,11 @@
 namespace v2;
 require_once('v2.php');
 
-$theme = themeFromJson(file_get_contents('data/'.$_SERVER['QUERY_STRING']));
+
+git_mode(true, $branch);
+$theme = themeFromJson(file_get_contents($file));
+$commit = empty($branch)?git_last_commit():$branch;
+git_mode(false);
 
 ?>
 <style>
@@ -19,10 +23,16 @@ $theme = themeFromJson(file_get_contents('data/'.$_SERVER['QUERY_STRING']));
 		font-size: .8em;
 		font-style: italic;
 	}
+	#savezone{
+		font-size: .8em;
+		margin : .5em;
+	}
 </style>
 <?php
 
 echo "<h1 id=theme contenteditable>{$theme->theme}</h1>";
+echo '<button onclick="save()">Sauvegarder</button>';
+echo '<div id="savezone"></div>';
 foreach($theme->questions as $question){
 	echo "<div class=question data-id={$question->id}><h2><span class=difficulty contenteditable>{$question->difficulty}</span>";
 	echo " - <span class=statement contenteditable>{$question->statement}</span></h2>";
@@ -44,6 +54,8 @@ foreach($theme->questions as $question){
 }
 ?>
 <script>
+	var commit = "<?= $commit ?>";
+	var theme = "<?= $file ?>";
 	function getData() {
 		var data = {
 			'theme' : document.querySelector('#theme').textContent,
@@ -52,12 +64,13 @@ foreach($theme->questions as $question){
 		};
 		[].forEach.call(document.querySelectorAll('.question'), function(questionNode) {
 			var question = {
+				'id' : questionNode.dataset.id,
 				'statement' : questionNode.querySelector('.statement').textContent,
 					'difficulty' : questionNode.querySelector('.difficulty').textContent,
 					'author' : questionNode.querySelector('.author')?questionNode.querySelector('.author').textContent:null,
 					'answers' : []
 			};
-			[].forEach.call(questionNode.querySelectorAll('.answer'), function(answerNode){
+			[].forEach.call(questionNode.querySelectorAll('.answer:not(.empty)'), function(answerNode){
 				question.answers.push({
 					'weight' : answerNode.querySelector('.weight input:checked').value,
 					'text' : answerNode.querySelector('.text').textContent
@@ -68,6 +81,19 @@ foreach($theme->questions as $question){
 		return data;
 	}
 
+	function save() {
+		var xhr = new XMLHttpRequest();
+		xhr.open('post', 'save.php?theme='+theme+'&commit='+commit, false);
+		xhr.send(JSON.stringify(getData()));
+		commit = xhr.responseText;
+		document.querySelector("#savezone").textContent = "Sauvegardé à " + new Date().toLocaleTimeString();
+		if (commit.indexOf(theme) == 0)
+			document.querySelector("#savezone").innerHTML +=
+				"<br>Ce quiz a été modifié par quelqu'un d'autre depuis le chargement de cette page. " +
+				"Les deux versions différentes seront combinées par un modérateur. Vous pouvez continuer " +
+				"à éditer votre version du quiz à <a href=?" + commit + ">cette adresse</a>.";
+	}
+
 	function onChangeWeight(event) {
 		var fullForm = event.target.parentElement.parentElement.parentElement;
 		var goodAnswers = fullForm.querySelectorAll('input[value="5"]:checked');
@@ -75,7 +101,6 @@ foreach($theme->questions as $question){
 			fullForm.classList.add('nogoodanswer');
 		else
 			fullForm.classList.remove('nogoodanswer');
-		console.log(fullForm);
 		if (event.target.value == 5) {
 			[].forEach.call(goodAnswers, function (domRadioButton) {
 				domRadioButton.parentElement.querySelector('input[value="4"]').checked = true;

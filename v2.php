@@ -81,3 +81,24 @@ function jsonFromTheme($theme){
     usort($theme->questions, function($a,$b) {return $a->id > $b->id;});
     return json_encode($theme, JSON_PRETTY_PRINT);
 }
+
+function git_mode($mode, $branch  = 'master'){
+    static $lock;
+	$branch = empty($branch) ? 'master' : $branch;
+    if ($mode){
+        $lock = fopen('data.lock', 'w');
+        flock($lock, LOCK_EX);
+        chdir('data');
+		shell_exec("git checkout $branch");
+    }
+    else{
+		shell_exec("git checkout $branch");
+        chdir('..');
+        flock($lock, LOCK_UN);
+        fclose($lock);
+    }
+}
+
+function git_last_commit(){
+    return trim(shell_exec('git rev-parse HEAD'));
+}
