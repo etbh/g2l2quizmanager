@@ -49,6 +49,19 @@ class Question
     public $answers = array();
 }
 
+function fillEmptyIds(&$theme){
+	$questionids = array_filter(array_column($theme->questions, 'id'));
+	foreach ($theme->questions as $question){
+		if (empty($question->id)){
+			$question->id = md5($question->statement);
+			while(array_search($question->id, $questionids) !== FALSE){
+				$question->id = str_shuffle($question->id);
+			}
+			$questionids[] = $question->id;
+		}
+	}
+
+}
 
 function themeFromJson($json){
     $toobject = function($parsedjson, $object){
@@ -68,7 +81,7 @@ function themeFromJson($json){
             $toobject($parsedanswer, $answer);
             $question->answers[$aid] = $answer;
         }
-
+		fillEmptyIds($theme);
         $theme->questions[$qid] = $question;
     }
     usort($theme->questions, function($a,$b) {return $a->difficulty > $b->difficulty;});
